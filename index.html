@@ -77,24 +77,28 @@
     </style>
   </head>
   <body>
-    <!-- Sorry Content -->
-    <div class="sorry-container">
-      <img
-        src="https://i.pinimg.com/originals/56/6c/a1/566ca17ceed94e1dfd2122c50a98c5b9.png"
-        alt="Chuuya Nakahara"
-        style="width: 75%"
-      />
-      <h1 class="sorry-text">Forgive Me</h1>
-      <p class="message">
-        With all sincerity, I apologize for my actions that caused discomfort or
-        misunderstanding. I deeply regret the impact it had on you. I promise to
-        do better, to be more thoughtful, and to avoid repeating the same
-        mistakes. Thank you for your understanding.
-      </p>
-      <div class="heart">❤️</div>
-      <button id="forgiveBtn" class="btn btn-primary mt-3">
-        I Forgive You
-      </button>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="sorry-container col-12 col-md-8">
+          <img
+            src="https://i.pinimg.com/originals/56/6c/a1/566ca17ceed94e1dfd2122c50a98c5b9.png"
+            alt="Chuuya Nakahara"
+            class="img-fluid"
+            style="width: 70%"
+          />
+          <h1 class="sorry-text">Forgive Me</h1>
+          <p class="message">
+            With all sincerity, I apologize for my actions that caused
+            discomfort or misunderstanding. I deeply regret the impact it had on
+            you. I promise to do better, to be more thoughtful, and to avoid
+            repeating the same mistakes. Thank you for your understanding.
+          </p>
+          <div class="heart">❤️</div>
+          <button id="forgiveBtn" class="btn btn-primary mt-3">
+            I Forgive You
+          </button>
+        </div>
+      </div>
     </div>
 
     <!-- Background Music -->
@@ -118,7 +122,7 @@
 
       forgiveBtn.addEventListener("click", () => {
         container.innerHTML = `
-        <img src="https://tse1.mm.bing.net/th?id=OIP.H4d1jJCtwW7Ea-9cN15GgwHaES&pid=Api&P=0&h=180" alt="Chuuya Nakahara">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.H4d1jJCtwW7Ea-9cN15GgwHaES&pid=Api&P=0&h=180" alt="Chuuya Nakahara" class="img-fluid">
         <h1 class="sorry-text">Thank You!</h1>
         <p class="message">Your forgiveness means the world to me. Let's create more beautiful memories together.</p>
         <div class="heart">💖</div>
